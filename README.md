@@ -4,11 +4,17 @@ Paper [![Paper Build Status](https://img.shields.io/github/actions/workflow/stat
 [![Open Collective](https://img.shields.io/opencollective/all/papermc?label=OpenCollective%20Sponsors)](https://opencollective.com/papermc)
 ===========
 
-The most widely used, high-performance Minecraft server that aims to fix gameplay and mechanics inconsistencies.
+The most widely used, high-performance Minecraft server that aims to fix gameplay and mechanics inconsistencies.  
+Cellulose is a fork for my private server use.
 
 
 **Support and Project Discussion:**
 - [Our forums](https://forums.papermc.io/) or [Discord](https://discord.gg/papermc)
+
+**Changes from PaperMC**
+- [ ] Implement Giants AI
+- [ ] Implement [Smallships](https://github.com/talhanation/smallships/tree/main)
+- [ ] Implement [Accessories](https://github.com/wisp-forest/accessories/)
 
 How To (Server Admins)
 ------
