@@ -1,0 +1,19 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Peter Pan <peter@never.lan>
+Date: Sat, 12 Oct 2024 15:26:38 -0400
+Subject: [PATCH] add back & misc equipment slots
+
+
+diff --git a/src/main/java/net/minecraft/world/entity/EquipmentSlot.java b/src/main/java/net/minecraft/world/entity/EquipmentSlot.java
+index 2fa2a4eef21e786f738f36616c3160defa95bce8..07e7120f81a3bb4f4b5a9232b45bc0c400e0bb8e 100644
+--- a/src/main/java/net/minecraft/world/entity/EquipmentSlot.java
++++ b/src/main/java/net/minecraft/world/entity/EquipmentSlot.java
+@@ -10,6 +10,8 @@ public enum EquipmentSlot implements StringRepresentable {
+     LEGS(EquipmentSlot.Type.HUMANOID_ARMOR, 1, 1, 2, "legs"),
+     CHEST(EquipmentSlot.Type.HUMANOID_ARMOR, 2, 1, 3, "chest"),
+     HEAD(EquipmentSlot.Type.HUMANOID_ARMOR, 3, 1, 4, "head"),
++    BACK(EquipmentSlot.Type.HUMANOID_ARMOR, 4, 1, 7, "back"),
++    MISC(EquipmentSlot.Type.HUMANOID_ARMOR, 5, 1, 8, "misc"),
+     BODY(EquipmentSlot.Type.ANIMAL_ARMOR, 0, 1, 6, "body");
+ 
+     public static final int NO_COUNT_LIMIT = 0;
